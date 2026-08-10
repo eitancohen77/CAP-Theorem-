@@ -24,7 +24,7 @@ consistent while AP's cluster physically diverged.
 | `Network.py` | Simulates the network; lets us "partition" a set of nodes into two groups                                                          |
 | `Node.py`    | A single in-memory key/value replica, identified by `node_id`                                                                      |
 | `Systems.py` | The `ConsistentSystem` (CP) and `AvailableSystem` (AP) logic, plus the shared `Result` type                                        |
-| `demo.py`    | `testSystems()` runs the full CAP scenario; `testNetwork()` is a smaller, standalone sanity check of `Network`/`Node` in isolation |
+| `main.py`    | `testSystems()` runs the full CAP scenario; `testNetwork()` is a smaller, standalone sanity check of `Network`/`Node` in isolation |
 
 ## Run it
 
