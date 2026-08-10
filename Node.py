@@ -14,6 +14,9 @@ class Node:
     async def local_write(self, key, value):
         await asyncio.sleep(random.uniform(0.01, 0.05))
         self.store[key] = value
+        if key in self.store:
+            return True
+        return False
 
     async def local_read(self, key):
         await asyncio.sleep(random.uniform(0.01, 0.05))
