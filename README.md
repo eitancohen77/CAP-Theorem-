@@ -29,7 +29,7 @@ consistent while AP's cluster physically diverged.
 ## Run it
 
 ```bash
-python3 demo.py
+python3 main.py
 ```
 
 This runs `testSystems()`. `testNetwork()` is left in the file as a
